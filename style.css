@@ -1,0 +1,35 @@
+body{
+    background-image: url("1561999638597.jpeg");
+    color:rgb(65, 65, 65);
+    padding: 0;
+    font-size:16px;
+    /* text-shadow: 1px 1px 3px rgb(241, 157, 157); */
+}
+blockquote{
+    font-size: 14px;
+}
+header,section{
+    background-color: rgba(255, 255, 255, 0.80);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width:8px;
+    }
+    /* 滚动槽 */
+    ::-webkit-scrollbar-track {
+    -webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+    border-left: 1px solid rgb(218, 218, 218); 
+    border-radius:6px;
+    }
+    /* 滚动条滑块 */
+    ::-webkit-scrollbar-thumb {
+    border-radius:8px;
+    background:rgba(0,0,0,0.5);
+    -webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+    }
+    ::-webkit-scrollbar-thumb:window-inactive {
+    background:rgba(0,0,0,0.3);}
